@@ -2,7 +2,7 @@ site_name: "Virtual Lab Documentation"
 site_url: "https://ursula.docs.euspa.europa.eu"
 theme:
   name: material
-  logo: 'https://www.euspa.europa.eu/sites/all/modules/copyprevention/transparent.gif'
+  logo: 'images/logo_white.png'
   favicon: 'images/favicon.ico'
   palette:
     scheme: youtube
