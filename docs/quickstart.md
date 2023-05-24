@@ -28,7 +28,7 @@ any base station for this tutorial, just follow these steps:
    used and status. When the process is Finished, a button will appear at the 
    bottom of the page.
    
-![Process file](images/Virtual-lab_progress.png "Process file")
+![Process file](images/processing.png "Process file")
 
 6. Click **"View Results"** to access the results page, which contains
    a map window to show a preview of the results. The map contains both the
@@ -39,7 +39,7 @@ any base station for this tutorial, just follow these steps:
    Note that for static positioning, only one point will be plot in the map,
    and thus no height profile will be shown.
    
-![View Results](images/Virtual-lab_results.png "View Results")
+![View Results](images/results.png "View Results")
 
 7. You can access the log messages if you click the **"View Log"** box at the top
    of the page and **"Download results"** as a ZIP format. The contents of the

@@ -1,5 +1,5 @@
 site_name: "Virtual Lab Documentation"
-site_url: "https://ursula.docs.euspa.europa.eu"
+site_url: https://rokubun.github.io/ursula-docs/
 theme:
   name: material
   logo: 'images/logo_white.png'
