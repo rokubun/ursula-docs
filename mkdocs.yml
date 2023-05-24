@@ -1,0 +1,59 @@
+site_name: "Virtual Lab Documentation"
+site_url: "https://ursula.docs.euspa.europa.eu"
+theme:
+  name: material
+  logo: 'https://www.euspa.europa.eu/sites/all/modules/copyprevention/transparent.gif'
+  favicon: 'images/favicon.ico'
+  palette:
+    scheme: youtube
+  language: en
+  font:
+    text: Nunito Sans
+    code: Roboto Mononame
+  feature:
+    tabs: false
+  include_search_page: false
+  search_index_only: true
+nav:
+  - 'Description': index.md
+  - 'GNSS processor': 
+    - 'Quick start': quickstart.md
+    - 'Manual & API': manual.md
+    - 'Examples': examples.md
+    - 'Accuracy': accuracy.md
+  - 'GNSS converter': converter.md
+  - 'Processing strategies': strategies.md
+  - 'Minimum data required': otherhardware.md
+  - 'Other resources': resources.md
+  - 'Contact us': contact.md
+extra_css:
+  - 'stylesheets/extra.css'
+repo_name: 'ursula-docs'
+repo_url: 'https://github.com/rokubun/ursula-docs'
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.euspa.europa.eu
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/EU4Space
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/EU4Space
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/euspa/
+    - icon: fontawesome/brands/mastodon
+      link: https://social.network.europa.eu/@EUSPA
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/space4eu/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/euspa
+
+markdown_extensions:
+  - codehilite
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+# google_analytics:
+#   - 'UA-148380836-1'
+#   - 'auto'

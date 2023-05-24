@@ -1,0 +1,13 @@
+version: "3.4"
+
+services: 
+  howto:
+    build:
+      context: .
+      target : build
+    image: howto
+    volumes:
+      - $PWD:/docs
+    ports:
+      - 8081:8000
+
