@@ -22,7 +22,7 @@ Virtual-lab aims at providing a platform for potential services and use cases th
 In this scenario the end user records the GNSS raw data with hes/hir own GNSS receiver while collecting the different points or trajectory of interest without worring about also collecting the GNSS raw data from her/his own reference station because before going to the field the user ensured that Virtual-lab has a nearby reference station to his/her field work (closer than 50Km if multifrequency receiver is in use).
 After finsihing the field survey the end user uploads the rover GNSS raw dataset recorded in the field to Virtual-lab and Virtual-lab will automatically fetch all the required CORS files and will perform all the required file operations to post-process the end user GNSS raw data.
 
-![Rover-only-dataset](images/use_case_rover_ppk.png "Rover only dataset")
+![Rover-only-dataset](images/use_case_rover_ppk_Virtual-lab.png "Rover only dataset")
 
 ### End-to-end PPK
 
@@ -30,7 +30,7 @@ This use case is similar to the previous case (an operator that performs a data 
 
 This data is then uploaded in the service, as describe in this [example](examples#rover-and-base-files).
 
-![End-to-end PPK](images/use_case_rover_base_ppk.png "End-to-end PPK")
+![End-to-end PPK](images/use_case_rover_base_ppk_Virtual-lab.png "End-to-end PPK")
 
 ## Coverage
 
