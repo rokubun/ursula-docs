@@ -20,12 +20,12 @@ To execute this example, follow these steps:
 
 1- Download one or several of the test datasets listed below
 
-Use case description| Rover file | Base station file | Event file
-:---:|:---:|:---:|:---:
-DJI Phantom 4 RTK drone [`*`] | [Rover](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/DJI_with_cam_events/101_0082_Rinex.rnx) | [Base station](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/DJI_with_cam_events/RTK134_202102051543_13ALG6P0050051.DAT) | [events file](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/DJI_with_cam_events/101_0082_Timestamp.MRK) | No events file
-Topodrone on a Mavic 2 Pro | [Rover](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/Topodrone/TopoDrone.ubx) | [Base station](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/Topodrone/MARE00ESP_R_20201201204_22M_01S_MO.rnx) | Within rover file
-Rokbun's ARGONAUT on a drone | [Rover](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/Rokubun+ARGONAUT/argonaut_cam.rok) | No base station | Within rover file
-Septentrio Mosaic X5 driving | [Rover](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/Cardedeu_Driving_MosaicX5_1Hz/XXXX00CAT_R_20203401333_01H_01S_MO.rnx) | [Base station](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/Cardedeu_Driving_MosaicX5_1Hz/MARE00ESP_R_20203401333_82M_01S_MO.rnx) | No events
+Use case description| Rover file | Base station file
+:---:|:---:|:---:
+DJI Phantom 4 RTK drone [`*`] | [Rover](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/DJI_with_cam_events/101_0082_Rinex.rnx) | [Base station](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/DJI_with_cam_events/RTK134_202102051543_13ALG6P0050051.DAT)
+Topodrone on a Mavic 2 Pro | [Rover](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/Topodrone/TopoDrone.ubx) | [Base station](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/Topodrone/MARE00ESP_R_20201201204_22M_01S_MO.rnx)
+Rokbun's ARGONAUT on a drone | [Rover](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/Rokubun+ARGONAUT/argonaut_cam.rok) | No base station
+Septentrio Mosaic X5 driving | [Rover](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/Cardedeu_Driving_MosaicX5_1Hz/XXXX00CAT_R_20203401333_01H_01S_MO.rnx) | [Base station](https://Virtual-lab-docs.s3.eu-central-1.amazonaws.com/Cardedeu_Driving_MosaicX5_1Hz/MARE00ESP_R_20203401333_82M_01S_MO.rnx)
 
 [`*`] Courtesy of [Terradroneology](https://terradroneology.com/)
 
