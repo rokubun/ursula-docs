@@ -133,7 +133,7 @@ menu will be displayed. Then click "My Account" as shown in the screenshot below
 
 ![Go to my account](images/goto_my_account.png "Go to your account")
 
-In your account you will find 3 areas:
+In your account you will find 2 areas:
 
 - **Profile** where you will be able to set your Name and e-mail address.
 - **Change password**, to reset your password.
