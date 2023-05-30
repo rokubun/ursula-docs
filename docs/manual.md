@@ -105,7 +105,7 @@ included in the KML file.
 As a visual summary of the processing task, a series of plots (in PNG format)
 are also included in the bundle. These files are:
 
-- `height.png`: Time series of the height above the ellipsoid (in meters).
+- `height.png`: Time series of the height above the ellipsoid in meters.
 - `skyplot.png`: Skyplot showing the distribution of the satellites that have
                  been used for the processing. The points in the plot have
                  different color coding, depending on the constellation. Also,
@@ -115,6 +115,9 @@ are also included in the bundle. These files are:
                 processing. The same color coding used in the skyplot has been
                 used here. The chart is a stack plot and shows the number of
                 satellites, at each epoch, of each constellation.
+- `CNo.png`: After correlation carrier to receiver noise ratio is expressed in decibel-Hertz (dB-Hz), it is a measure of the quality of the reception of the signal of each satellite, the CNo can be used as means to determine if there are interferences in the GNSS signal (if all satellites suffer the very same signal valley at the same time). Ideally highest elevation satellites should report a C/No of 51 dB-Hz 
+- `CycleSlips.png`: Depicts the number of times the tracking of a particular satellite / signal has been lost and recovered, indcating also when those events happened in time. For carrier phase based calculations like PPK or PPP it is very important to have an as continuous as possible signal tracking as every time a singal carrier phase is lost it's relative cycle counter must be reinicialized from scratch causing the particular satellite / signal to be temporally unusable to benefit PPK or PPP solutions. Ideally there should be no vertical bars in the plot (continous tracking).
+- `Multipath.png`: Ionosphere detrended code minus carrier plot is a depiction of how much multipath (bounced signal on objects like trees, buildings, etc) there is present in the signals correlated by the GNSS receiver. Ideally this plot should be as close to zero as possible.
 
 #### Time/Camera events (csv)
 
