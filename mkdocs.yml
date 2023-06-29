@@ -25,7 +25,6 @@ nav:
   - 'Processing strategies': strategies.md
   - 'Minimum data required': otherhardware.md
   - 'Other resources': resources.md
-  - 'Contact us': contact.md
 extra_css:
   - 'stylesheets/extra.css'
 repo_name: 'ursula-docs'
